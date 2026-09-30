@@ -24,7 +24,7 @@ h1 em { font-style:normal; color:var(--rose); }
 .section-label { margin:0 0 24px; color:var(--gold); font-size:12px; font-weight:700; text-transform:uppercase; letter-spacing:.2em; }
 .artist-link { display:flex; justify-content:space-between; align-items:center; gap:20px; text-decoration:none; border-top:1px solid #ffffff33; border-bottom:1px solid #ffffff33; padding:27px 0; transition:padding .2s,color .2s; }
 .artist-link:hover { padding-left:12px; color:var(--gold); }
-.artist-link strong { font-family:'Barlow Condensed',Impact,sans-serif; font-size:clamp(29px,4.5vw,54px); text-transform:uppercase; line-height:1; }
+.artist-link strong { font-family:'Barlow Condensed',Impact,sans-serif; font-size:clamp(22px,3.4vw,40.5px); text-transform:uppercase; line-height:1; }
 .artist-link .meta { color:var(--muted); text-align:right; white-space:nowrap; font-size:13px; }
 .artist-link .arrow { color:var(--rose); font-size:30px; margin-left:16px; }
 .catalog-intro { display:flex; justify-content:space-between; align-items:end; gap:18px; margin-bottom:30px; }
@@ -57,5 +57,5 @@ h1 em { font-style:normal; color:var(--rose); }
 .sources a { color:var(--gold); }
 footer { display:flex; justify-content:space-between; gap:16px; padding:25px clamp(22px,5vw,72px); border-top:1px solid #ffffff24; color:var(--muted); font-size:12px; }
 @media(max-width:760px) { .album-grid { grid-template-columns:1fr; } .record-art { width:170px; top:50px; right:-55px; opacity:.28; } .record-art::before { inset:52px; } .record-art::after { inset:80px; } .artist-link .meta { white-space:normal; } }
-@media(max-width:470px) { .masthead { align-items:flex-start; } .back { max-width:125px; text-align:right; line-height:1.4; } .intro { padding-top:60px; } .artist-link strong { font-size:29px; } .artist-link { align-items:flex-start; } .artist-link .meta { display:none; } .album { padding:23px; } .catalog-intro { align-items:flex-start; flex-direction:column; } }
+@media(max-width:470px) { .masthead { align-items:flex-start; } .back { max-width:125px; text-align:right; line-height:1.4; } .intro { padding-top:60px; } .artist-link strong { font-size:22px; } .artist-link { align-items:flex-start; } .artist-link .meta { display:none; } .album { padding:23px; } .catalog-intro { align-items:flex-start; flex-direction:column; } }
 @media(prefers-reduced-motion:reduce) { html { scroll-behavior:auto; } .artist-link { transition:none; } }
